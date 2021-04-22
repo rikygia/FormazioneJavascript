@@ -14,12 +14,19 @@ request.onload = ()=>{
 */
 
 fetch(requestURL)
-    .then(response=>response.json())
-    .then(ciao=>{
-        json=ciao;
-        console.log(json);
-    })
+.then(response=>response.json())
+.then(ciao=>{
+    json=ciao;
+    console.log(json);
+})
 
+/*
+perchè questo non funziona?
+const response = await fetch(requestURL);
+json=response.json();
+*/
+//perchè questo stampa undefined?
+console.log(json)
 
 
 
