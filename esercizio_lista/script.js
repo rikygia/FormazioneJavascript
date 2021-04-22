@@ -26,7 +26,14 @@ const response = await fetch(requestURL);
 json=response.json();
 */
 //perchè questo stampa undefined?
-console.log(json)
+/*
+let funzioneAs= async function(){
+    const response = await fetch(requestURL);
+    json = await response.json();  
+    console.log(json);  
+}
+funzioneAs();*/
+console.log(json);
 
 
 
