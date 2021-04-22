@@ -1,0 +1,23 @@
+{
+    "lista":[
+        {
+            "prodotto":"latte",
+            "descrizione":"bianco e buono",
+            "prezzo":2,
+            "immagine":"./latte.jpg"
+        },
+        {
+            "prodotto":"caffe",
+            "descrizione":"amaro ma energetico",
+            "prezzo":4,
+            "immagine":"./caffe.jpg"
+        },
+        {
+            "prodotto":"uova",
+            "descrizione":"rotonde e fragili",
+            "prezzo":1,
+            "immagine":"./uova.jpg"
+        }
+        
+    ]
+}
