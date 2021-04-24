@@ -50,8 +50,8 @@ bottone.addEventListener('click',()=>
     img.setAttribute("width","100px");
     document.body.append(img);
     let txt=document.createElement('p');
-    txt.textContent= `${json.lista[i].prodotto} ${json.lista[i].descrizione} ${json.lista[i].prezzo}`;
+    txt.textContent= `${json.lista[i].prodotto} ${json.lista[i].descrizione} ${json.lista[i].prezzo}$`;
     document.body.append(txt);
-    
+
 }
 })
