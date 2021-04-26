@@ -1,0 +1,1 @@
+let yourArray=["mammt",69,false,420,"lmao"]; // Change this line
