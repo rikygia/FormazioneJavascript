@@ -27,12 +27,18 @@ json=response.json();
 */
 //perchè questo stampa undefined?
 /*
+
+
+
 let funzioneAs= async function(){
     const response = await fetch(requestURL);
     json = await response.json();  
     console.log(json);  
 }
 funzioneAs();*/
+
+
+
 console.log(json);
 
 
@@ -43,7 +49,7 @@ bottone.addEventListener('click',()=>
 {
 
     //json=request.response;
-
+    
     for(let i=0;i<3;i++){
     let img=document.createElement('img');
     img.setAttribute("src",json.lista[i].immagine)
