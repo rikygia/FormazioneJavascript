@@ -1,5 +1,15 @@
-
-
+class Persona{
+    constructor(nome)
+    {
+        this.nome=nome
+    }
+    set nuovoNome(nuovo){
+        this.nome=nuovo
+    }
+}
+tizio=new Persona('marco');
+tizio.nuovoNome='giorgio'
+console.log(tizio)
 let json;
 let requestURL="./lista.json";
 /*
